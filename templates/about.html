@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+  </head>
+  <body>
+    <h1>About Page</h1>
+    <p>
+      This is the about page of our calculator website. This calculator
+      currently has the multiplication, division, addition, subtraction,
+      modulus, and exponent features.
+    </p>
+    <img
+      src="{{ url_for('static', filename='calculator.png') }}"
+      alt="Image"
+      width="200"
+      height="300"
+    />
+
+    <h2>Calculator Page:</h2>
+    <a href="{{ url_for('index')}}">index.html</a>
+  </body>
+</html>
